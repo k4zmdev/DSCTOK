@@ -1,0 +1,71 @@
+dsctok Documentation
+
+Overview
+--------
+dsctok is a Python tool designed to interact with Discord tokens for various tasks such as validation, status changes, and bulk messaging. It uses libraries like requests and colorama to handle HTTP requests and produce colorful terminal output.
+
+The tool provides a simple command-line interface offering options to get a token, check its validity, change the user’s status, login with a token, send direct messages to multiple users, and exit.
+
+Features
+--------
+- Get Token: Retrieve a Discord token from user input or system.
+- Check Token Validity: Verify if a token is valid and active.
+- Change Status: Modify the online status of the user tied to the token.
+- Token Login: Authenticate using a Discord token.
+- Direct Message All: Send direct messages to multiple users.
+- Exit: Quit the application safely.
+
+Installation
+------------
+1. Clone or download the repository:
+   git clone https://github.com/yourusername/dsctok.git
+   cd dsctok
+
+2. (Optional) Create and activate a virtual environment:
+   python -m venv venv
+   source venv/bin/activate   # Windows: venv\Scripts\activate
+
+3. Install the required dependencies:
+   pip install -r requirements.txt
+
+4. Run the main script:
+   python main.py
+
+Usage
+-----
+On launch, the tool displays this menu:
+
+🔑 (1) Get my token
+🔍 (2) Check token
+🔄 (3) Change status
+🔐 (4) Token login
+💬 (5) DM All
+❌ (0) Exit
+
+- Enter the number of the desired option.
+- Follow prompts to provide tokens, messages, or info.
+- If the token is invalid, the tool shows:
+  Your token is invalid.
+
+Dependencies
+------------
+- requests — HTTP request handling.
+- colorama — Terminal color output.
+- concurrent.futures — Multithreading support.
+- threading — Event handling.
+- Python standard libraries: os, re, platform, webbrowser, tempfile, time, random, string, base64
+
+Important Notes
+---------------
+- Intended for educational and ethical use only.
+- Do not use for spamming or harassment.
+- Follow Discord’s terms of service and API guidelines.
+- Abuse may cause bans or legal consequences.
+
+Contribution
+------------
+Issues and pull requests are welcome to improve this tool.
+
+License
+-------
+Licensed under the MIT License.
