@@ -1,0 +1,18 @@
+© 2025 Kazam. All rights reserved.
+
+This software and its associated files are the exclusive property of Kazam.  
+Any unauthorized copying, modification, distribution, or use of this software,  
+whether in whole or in part, is strictly prohibited without prior written consent.
+
+This project is provided "as is" without warranty of any kind, either expressed or implied,  
+including but not limited to the warranties of merchantability, fitness for a particular purpose,  
+and non-infringement. In no event shall Kazam be liable for any claim, damages, or other liability,  
+whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with  
+the software or the use or other dealings in the software.
+
+By using this software, you agree to comply with all applicable laws and regulations  
+and to respect the intellectual property rights of the author.
+
+For permissions or licensing inquiries, please contact Kazam directly.
+
+Thank you for respecting the work and efforts put into this project.
